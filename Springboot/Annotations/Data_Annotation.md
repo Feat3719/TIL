@@ -1,7 +1,3 @@
-# 2024-01-25
-----------------
-# 🍃 Springboot 
-
 ## Data Annotation
 ### @EnableJpaAuditing
 > 감사(Auditing) 기능을 활성화 한다. Entity 의 생성일자(@CreatedDate), 마지막 수정일자(@LastModifiedDate)를 자동으로 관리 할 수 있다.
@@ -88,53 +84,3 @@ public class Article {
 
 ```
 <br><br>
-
-
-## Web Annotation
-### @PathVariable
-> URI의 일부를 메서드의 매개변수로 바인딩하는 데 사용된다.
-
-- @RequestMapping 또는 @GetMapping, @PostMapping 등과 같은 곳에 쓰이는 변수를 메서드의 매개변수로 전달한다.
-
-```java
-import org.springframework.web.bind.annotation.PathVariable;
-// @Controller 내부 . . .
-
-    @GetMapping("/articles/{id}") // URI 에서 사용되는 id 값을
-    public String getArticle(@PathVariable Long id, Model model) { // 메서드의 매개변수로 사용 가능
-        Article article = blogService.findById(id);
-        model.addAttribute("article",new ArticleViewResponse(article));
-
-        return "article";
-    }
-
-    // . . .
-```
-
-<br><br><br>  
-
-## Security Annotation
-### @PathVariable
-> URI의 일부를 메서드의 매개변수로 바인딩하는 데 사용된다.
-
-- @RequestMapping 또는 @GetMapping, @PostMapping 등과 같은 곳에 쓰이는 변수를 메서드의 매개변수로 전달한다.
-
-```java
-import org.springframework.web.bind.annotation.PathVariable;
-// @Controller 내부 . . .
-
-    @GetMapping("/articles/{id}") // URI 에서 사용되는 id 값을
-    public String getArticle(@PathVariable Long id, Model model) { // 메서드의 매개변수로 사용 가능
-        Article article = blogService.findById(id);
-        model.addAttribute("article",new ArticleViewResponse(article));
-
-        return "article";
-    }
-
-    // . . .
-```
-
-<br><br><br> 
-
-## Security > UserDetails, UserDetailsService ?
-### UserDetails
