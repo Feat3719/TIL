@@ -15,3 +15,4 @@
 ### [2024-01-16](https://github.com/Feat3719/TIL/blob/main/2024-01/2024-01-16.md)
 ### [2024-01-17](https://github.com/Feat3719/TIL/blob/main/2024-01/2024-01-17.md)
 ### [2024-01-18](https://github.com/Feat3719/TIL/blob/main/2024-01/2024-01-18.md)
+### [2024-01-19](https://github.com/Feat3719/TIL/blob/main/2024-01/2024-01-19.md)
