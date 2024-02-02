@@ -1,0 +1,36 @@
+# vscode Extensions
+
+- Debugger for Java
+- Dev Containers
+- Docker
+- Error Lens
+- Extension Pack for Java
+- Fix JSON
+- Git Graph
+- Git History
+- GitHub Actions
+- GitHub Pull Requests and Issues
+- Gradle for Java
+- indent-rainbow
+- IntelliCode
+- Intellicode API Usage Examples
+- json
+- Language Support for Java(TM) by Red Hat
+- Live Server
+- Lombok
+- Markdown Preview Enhanced
+- Maven for Java
+- Prettier - Code formatter
+- Project Manager for Java
+- Pylance
+- Python
+- Python Debugger
+- Rainbow CSV
+- Red Hat Dependency Analytics
+- Spring Boot Dashboard
+- Spring Boot Extension Pack
+- Spring Boot Tools
+- Spring Initializr Java Support
+- TabOut
+- TestRunner for Java
+- WSL
